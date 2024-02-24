@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+
+
+body {
+    padding: 16px 100px;
+    font-family: "Roboto Serif", serif;
+}
+
+/* runnng the css via mobile first */
+
+/* utitlity matters */
+.noDisplay {
+    display: none;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroLogo {
+    height: 60px;
+    width: 300px;
+}
+ nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px
+ }
+ a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+
+ }
+
+nav button {
+    color: white;
+    background-color: #1976d2;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 30px;
+    justify-content: center;
+    cursor: pointer;
+
+}
+section {
+    display: flex;
+    line-height: 2;
+
+}
+.secDiv {
+    padding: 30px;
+}
+.header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+section h1 {
+    line-height: 0.5;
+    margin: 0;
+}
+section button {
+    color: white;
+    height: 50px;
+    width: 200px;
+    /* margin: 0; */
+    font-weight:bolder;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1976d2;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .noDisplay {
+        display: flex;
+    }
+    .navIcon {
+        display: none;
+    }
+
+    .container {
+        padding: 16px 16px;
+    }
+}
+
+ 
